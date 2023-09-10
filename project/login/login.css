@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("where\ i\'m\ from\ this\ was\ called\ a\ hipster\ blog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+.main-menu
+{
+   border: 3px solid whitesmoke;
+   border-radius: 8px;
+   width: 500px;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   backdrop-filter:blur(8px);
+}
+.login input
+{  width: 300px;
+   height: 60px;
+   outline: none;
+   border: none;
+   background:transparent;
+   border-bottom: 2px solid black;
+   margin: 14px;
+   color: white;
+   font-size: 20px;
+    display: block;
+    position: relative;
+    padding: 0 35px 0 5px;
+}
+.login input::placeholder
+{
+    color: white;
+}
+span i{
+    margin-left: 279px;
+    margin-top: -57px;
+    position: absolute;
+    font-size:24px;
+}
+h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+.login-detail
+{
+    font-size: 20px;
+
+}
+a{
+    color: whitesmoke;
+    
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+a:hover
+{   
+    color: black;
+}
+.submit input
+{
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    padding-bottom: 5px;
+}
+.foot
+{   color: whitesmoke;
+    font-size: 20px;
+}

@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: radial-gradient(white,grey);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+header
+{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+header h1
+{
+   background-color: rgb(32, 29, 44);
+   color: white;
+}
+header nav
+{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+header nav a{
+    font-size: 2rem;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+header nav a:hover
+{
+    border:2px solid purple;
+    border-radius: 30px;
+    padding: 4px;
+    background-color: purple;
+    color: white;
+
+}
+.outerbox
+{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+    border: 3px solid black;
+    border-radius: 10%;
+    width: 40%;
+    padding: 20px;
+    background-color:rgb(30, 103, 198);
+}
+.pic{
+    margin-left:10px;
+    padding: 8px;
+}
+.pic img{
+    border: 5px double black ;
+    border-radius: 50%;
+    
+}
+h1,h2{
+    text-align: center;
+    padding: 8px;
+}
+@media screen and (min-width:1400px) {
+    .outerbox
+    {
+        width: 25%;
+    }
+    header nav
+    {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px)
+{
+    .outerbox
+    {
+        width:60%;
+    }
+}
+@media screen and (max-width:576px)
+{
+    .outerbox
+    {
+        width: 80%;
+    }
+    header nav {
+          margin-right: -20px;
+    }
+}
